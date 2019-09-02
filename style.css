@@ -1,0 +1,71 @@
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+header {
+  display: block;
+  position: relative;
+  height: 300px;
+  background-image: linear-gradient(#800080, #551a8b);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+}
+.center{
+  margin: 0;
+  padding: 50px 0;
+  font: 20px "Philosopher";
+  text-align: center;
+}
+
+header h2 {
+  color: white;
+}
+
+img{
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.beach{
+    width: 25%;
+    font-weight: bold;
+}
+
+.reach{
+    text-align: center;
+}
+
+body{
+    background-color: #c54b8c;
+    color: #000000;
+    font-family: 'Philosopher', sans-serif;
+    line-height: 2em;
+    min-height: 100%;
+}
+
+section{
+    margin: 10px;
+    padding: 20px;
+    color: #000000;
+}
+
+hr{
+    color: #000000;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+  background-image: linear-gradient(#800080, #551a8b);
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+  padding: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*
+    font-family reference
+font-family: 'Philosopher', sans-serif;
+font-family: 'Oxygen', sans-serif;*/
